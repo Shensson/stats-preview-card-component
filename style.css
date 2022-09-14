@@ -9,28 +9,28 @@ main{
     background-color: hsl(244, 38%, 16%);
     color: hsl(0, 0%, 100%);
     text-align: center;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     width: min-content;
 }
 header{
     display: flex;
 }
 img{
-    width: 350px;
+    width: 21.875rem;
     object-fit: contain;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0.625rem 0.625rem 0 0;
 }
 .image-overlay{
     position: absolute;
-    width: 350px;
-    height: 257px;
+    width: 21.875rem;
+    height: 16.0625rem;
     background-color: hsl(277, 83%, 34%);
     opacity: 50%;
     z-index: 10;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0.625rem 0.625rem 0 0;
 }
 .text-elements{
-    padding: 25px;
+    padding: 1.5625rem;
     padding-bottom: 0;
 }
 .heading{
@@ -43,18 +43,18 @@ img{
 p{
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 400;
-    line-height: 25px;
-    word-spacing: 5px;
-    margin-bottom: 50px;
+    line-height: 1.5625rem;
+    word-spacing: 0.3125rem;
+    margin-bottom: 3.125rem;
 }
 .container{
     display: grid;
     grid-template-rows: auto;
 }
 .stat{
-    padding: 30px;
+    padding: 1.875rem;
     padding-top: 0;
 }
 .stat h1{
@@ -64,69 +64,69 @@ p{
 .stat p{
     margin: 0;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.875rem;
 }
 
-@media (min-width: 1000px){
+@media (min-width: 62.5rem){
     main{
-        margin: 8px;
+        margin: 0.5rem;
         display: flex;
         flex-direction: row-reverse;
         background-color: hsl(244, 38%, 16%);
         color: hsl(0, 0%, 100%);
         text-align: center;
-        border-radius: 10px;
+        border-radius: 0.625rem;
         width: min-content;
     }
     img{
-        width: 550px;
+        width: 34.375rem;
         object-fit: contain;
-        border-radius: 0 10px 10px 0;
+        border-radius: 0 0.625rem 0.625rem 0;
     }
     .image-overlay{
         position: absolute;
-        width: 550px;
-        height: 404px;
+        width: 34.375rem;
+        height: 25.25rem;
         background-color: hsl(277, 83%, 34%);
         opacity: 50%;
         z-index: 10;
-        border-radius: 0 10px 10px 0;
+        border-radius: 0 0.625rem 0.625rem 0;
     }
     .text-elements{
-        width: 450px;
+        width: 28.125rem;
         text-align: left;
-        padding-left: 50px;
+        padding-left: 3.125rem;
     }
     .heading{
         font-family: 'Inter', sans-serif;
         color: hsl(0, 0%, 100%);
-        word-spacing: 5px;
+        word-spacing: 0.3125rem;
     }
     .container{
         display: flex;
     }
     .stat{
         padding: 0;
-        padding-right: 50px;
+        padding-right: 3.125rem;
     }
     h1{
-        margin-right: 70px;
+        margin-right: 4.375rem;
     }
     p{
         color: hsla(0, 0%, 100%, 0.75);
         font-family: 'Lexend Deca', sans-serif;
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 400;
-        line-height: 25px;
-        word-spacing: 5px;
-        margin-bottom: 50px;
-        margin-right: 70px;
+        line-height: 1.5625rem;
+        word-spacing: 0.3125rem;
+        margin-bottom: 3.125rem;
+        margin-right: 4.375rem;
     }
     .stat p{
-        font-size: 12px;
-        padding-right: 20px;
+        font-size: 0.75rem;
+        padding-right: 1.25rem;
     }
     .stat h1{
-        font-size: 32px;
+        font-size: 2rem;
     }
 }
