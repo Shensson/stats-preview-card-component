@@ -1,0 +1,68 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(233, 47%, 7%);
+}
+main{
+    background-color: hsl(244, 38%, 16%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    border-radius: 10px;
+    width: min-content;
+}
+header{
+    display: flex;
+}
+img{
+    width: 350px;
+    object-fit: contain;
+    border-radius: 10px 10px 0 0;
+}
+.image-overlay{
+    position: absolute;
+    width: 350px;
+    height: 257px;
+    background-color: hsl(277, 83%, 34%);
+    opacity: 50%;
+    z-index: 10;
+    border-radius: 10px 10px 0 0;
+}
+.text-elements{
+    padding: 25px;
+    padding-bottom: 0;
+}
+.heading{
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+.accent{
+    color: hsl(277, 64%, 61%);
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    word-spacing: 5px;
+    margin-bottom: 50px;
+}
+.container{
+    display: grid;
+    grid-template-rows: auto;
+}
+.stat{
+    padding: 30px;
+    padding-top: 0;
+}
+.stat h1{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+.stat p{
+    margin: 0;
+    font-weight: 400;
+    line-height: 30px;
+}
