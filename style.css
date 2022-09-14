@@ -66,3 +66,67 @@ p{
     font-weight: 400;
     line-height: 30px;
 }
+
+@media (min-width: 1000px){
+    main{
+        margin: 8px;
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: hsl(244, 38%, 16%);
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+        border-radius: 10px;
+        width: min-content;
+    }
+    img{
+        width: 550px;
+        object-fit: contain;
+        border-radius: 0 10px 10px 0;
+    }
+    .image-overlay{
+        position: absolute;
+        width: 550px;
+        height: 404px;
+        background-color: hsl(277, 83%, 34%);
+        opacity: 50%;
+        z-index: 10;
+        border-radius: 0 10px 10px 0;
+    }
+    .text-elements{
+        width: 450px;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .heading{
+        font-family: 'Inter', sans-serif;
+        color: hsl(0, 0%, 100%);
+        word-spacing: 5px;
+    }
+    .container{
+        display: flex;
+    }
+    .stat{
+        padding: 0;
+        padding-right: 50px;
+    }
+    h1{
+        margin-right: 70px;
+    }
+    p{
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        word-spacing: 5px;
+        margin-bottom: 50px;
+        margin-right: 70px;
+    }
+    .stat p{
+        font-size: 12px;
+        padding-right: 20px;
+    }
+    .stat h1{
+        font-size: 32px;
+    }
+}
